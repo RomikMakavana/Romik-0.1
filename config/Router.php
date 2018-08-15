@@ -17,7 +17,11 @@ class Router {
         }else{
             Error::message($controller.' class not found');
         }
-        $action = $controller->$action();
+        if(method_exists($controller, $action)){
+            $action = $controller->$action();
+        }else{
+            Error::message($action.' method doesn\'t exists in '.get_class($controller));
+        }
         exit;
     }
 

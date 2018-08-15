@@ -13,8 +13,8 @@ class Configuration
 	/*
 	 * Define your base url here
 	 */
-	// public const BASE_URL = "http://framework.local/";
-	public const BASE_URL = "http://localhost/MVC-Frame/";
+	public const BASE_URL = "http://framework.local/";
+	// public const BASE_URL = "http://localhost/MVC-Frame/";
 	
 
 	/*
