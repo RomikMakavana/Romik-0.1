@@ -17,10 +17,12 @@ class Controller {
             if(file_exists($path)){
                 include $path;
             }else{
-                Error::message('View not found.');
+                Error::message($path.'<br> page not found.');
             }
         }else{
             Error::message('View can\'t be blank.');
         }
     }
 }
+
+?>
