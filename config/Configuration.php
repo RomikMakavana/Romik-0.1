@@ -13,14 +13,14 @@ class Configuration
 	/*
 	 * Define your base url here
 	 */
-	public const BASE_URL = "http://framework.local/";
+	const BASE_URL = "http://framework.local/";
 	// public const BASE_URL = "http://localhost/MVC-Frame/";
 	
 
 	/*
 	 * layout out config
 	 */
-	public const LAYOUT_DIR = 'pages/layout/';
+	const LAYOUT_DIR = 'pages/layout/';
 
 	/*
 	 * css configuration
